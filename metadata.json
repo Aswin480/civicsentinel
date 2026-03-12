@@ -1,0 +1,8 @@
+{
+  "name": "Copy of Copy of CivicSentinel",
+  "description": "A tactical civic command center integrating geospatial tracking with AI-powered grievance analysis and resolution.",
+  "requestFramePermissions": [
+    "geolocation",
+    "camera"
+  ]
+}

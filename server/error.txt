@@ -1,0 +1,72 @@
+﻿node : node:internal/m
+odules/esm/resolve:204
+At line:1 char:1
++ node index.js 2>&1 
+| Out-File -FilePath 
+error.txt -Encoding 
+utf8
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (node:inter   
+ nal/modules/esm/r    
+esolve:204:String    
+) [], RemoteExcep    
+tion
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+  const 
+resolvedOption = FSLeg
+acyMainResolve(pkgPath
+, packageConfig.main, 
+baseStringified);
+                      
+   ^
+
+Error: Cannot find 
+package 'F:\civicsenti
+nel\server\node_module
+s\express\index.js' 
+imported from F:\civic
+sentinel\server\index.
+js
+    at 
+legacyMainResolve (nod
+e:internal/modules/esm
+/resolve:204:26)
+    at packageResolve 
+(node:internal/modules
+/esm/resolve:778:12)
+    at moduleResolve (
+node:internal/modules/
+esm/resolve:854:18)
+    at defaultResolve 
+(node:internal/modules
+/esm/resolve:984:11)
+    at ModuleLoader.de
+faultResolve (node:int
+ernal/modules/esm/load
+er:780:12)
+    at 
+#cachedDefaultResolve 
+(node:internal/modules
+/esm/loader:704:25)
+    at 
+ModuleLoader.resolve (
+node:internal/modules/
+esm/loader:687:38)
+    at ModuleLoader.ge
+tModuleJobForImport (n
+ode:internal/modules/e
+sm/loader:305:38)
+    at 
+ModuleJob._link (node:
+internal/modules/esm/m
+odule_job:137:49) {
+  code: 
+'ERR_MODULE_NOT_FOUND'
+}
+
+Node.js v22.16.0
